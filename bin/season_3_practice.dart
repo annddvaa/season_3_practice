@@ -10,5 +10,6 @@ class Mobil {
 void main() {
   var avanza = Mobil('Toyota', 2020);
   var xenia = Mobil ('toyoyo' , 2025);
+   var byd = Mobil ('tytyd' , 2025);
   avanza.info(); // Mobil: Toyota, Tahun: 2020
 }
