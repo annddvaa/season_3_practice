@@ -1,5 +1,13 @@
-import 'package:season_3_practice/season_3_practice.dart' as season_3_practice;
+class Mobil {
+  String merk;
+  int tahun;
+  Mobil(this.merk, this.tahun);
+  void info() {
+    print('Mobil: $merk, Tahun: $tahun');
+  }
+}
 
-void main(List<String> arguments) {
-  print('Hello world: ${season_3_practice.calculate()}!');
+void main() {
+  var avanza = Mobil('Toyota', 2020);
+  avanza.info(); // Mobil: Toyota, Tahun: 2020
 }
